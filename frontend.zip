@@ -1,0 +1,160 @@
+Initial Frontend Code Structure:
+
+e_learning_frontend/
+?
+??? index.html
+??? style.css
+??? script.js
+??? README.md
+??? assets/
+    ??? images/
+    ??? fonts/
+    ??? css/
+Example Code Files
+
+index.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>E-Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to the E-Learning Platform</h2>
+            <p>Learn from the best courses available online.</p>
+        </section>
+        <section>
+            <h2>Featured Courses</h2>
+            <div class="course-list">
+                <div class="course-item">
+                    <h3>Introduction to SQL</h3>
+                    <p>Learn the basics of SQL.</p>
+                </div>
+                <div class="course-item">
+                    <h3>Advanced Python</h3>
+                    <p>Deep dive into advanced Python topics.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 E-Learning Platform. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+style.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.course-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.course-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 45%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+script.js
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('E-Learning Platform is ready!');
+});
+README.md
+# E-Learning Platform Frontend
+
+## Description
+
+This is the initial frontend code for the E-Learning Platform project. The code includes basic HTML, CSS, and JavaScript to create a simple, functional user interface.
+
+## Structure
+
+- `index.html`: The main HTML file containing the structure of the webpage.
+- `style.css`: The CSS file for styling the webpage.
+- `script.js`: The JavaScript file for adding interactivity to the webpage.
+- `assets/`: Folder for storing images, fonts, and additional CSS files.
+
+## Libraries Used
+
+- No external libraries used at this stage.
+
+## Instructions for Running
+
+1. Clone the repository or unzip the folder.
+2. Open `index.html` in your web browser.
+
+## Future Improvements
+
+- Add user authentication.
+- Integrate with backend APIs.
+- Improve the design and responsiveness.
+- Add more interactive elements.
+
+Submission
+Folder Name: YourName_ElearningFrontend.zip
+Include:
+index.html
+style.css
+script.js
+README.md
+assets/ folder (if any)
